@@ -1,0 +1,9 @@
+{
+    "$id": "https://github.com/emehiel/HSF_json_schema/dynamicState.json#",
+    "$schemas": "https://json-schema.org/draft/2019-09/schema",
+    "type": "object",
+    "properties": {
+        "type": "array",
+        "items": { "type": "number" }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "tasks": [
+      {
+        "name": "COMM Task 0",
+        "type": "COMM",
+        "maxTimes": 10.0,
+        "target": {
+          "name": "groundstation1",
+          "type": "FacilityTarget",
+          "value": 1000.0,
+          "dynamicState": {
+            "type": "STATIC_LLA",
+            "integratorType": "None",
+            "stateData": [
+              -33.47,
+              -70.65,
+              0.0
+            ],
+            "eoms": {
+              "type": "none"
+            }
+          }
+        }
+      },
+      {
+        "name": "COMM Task 1",
+        "type": "COMM",
+        "maxTimes": 10.0,
+        "target": {
+          "name": "groundstation2",
+          "type": "FacilityTarget",
+          "value": 1000.0,
+          "dynamicState": {
+            "type": "STATIC_LLA",
+            "integratorType": "None",
+            "stateData": [
+              18.59,
+              -155.4,
+              0.0
+            ],
+            "eoms": {
+              "type": "none"
+            }
+          }
+        }
+      }
+    ]
+}

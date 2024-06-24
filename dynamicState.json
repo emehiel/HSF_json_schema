@@ -1,0 +1,37 @@
+{
+    "$id": "https://github.com/emehiel/HSF_json_schema/dynamicState.json#",
+    "$schemas": "https://json-schema.org/draft/2019-09/schema",
+    "dynamicState": {
+        "type": "object",
+        "properties": {
+          "type": { "type": "string" },
+          "integratorType": { "type": "string" },
+          "stateData": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "integratorOptions": {
+            "type": "object",
+            "properties": {
+              "h": { "type": "number" },
+              "rtol": { "type": "number" },
+              "atol": { "type": "number" },
+              "eps": { "type": "number" },
+              "nSteps": { "type": "number" }
+            }
+          },
+          "integratorParameters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": { "type": "string" }
+              }
+            }
+          }
+        },
+        "required": [ "type", "stateData", "eoms" ]
+    }
+}
