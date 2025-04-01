@@ -1,5 +1,5 @@
 {
-    "$id": "https://github.com/emehiel/HSF_json_schema/HSF_state_schema.json",
+    "$id": "https://emehiel.github.io/HSF_json_schema/HSF_state_schema.json",
     "$schemas": "https://json-schema.org/draft/2020-12/schema",
     "description": "schema for the Horizon Simulation Framework",
     "type": "object",
