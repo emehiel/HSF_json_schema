@@ -78,14 +78,6 @@
             },
             "required": [ "type" ]
         },
-        "model": {
-            "type": "array",
-            "items":
-            {
-                "$ref": "#/$defs/asset"
-            },
-            "minItems": 1
-        },
         "asset": {
             "type": "object",
             "properties": {
