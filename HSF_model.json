@@ -10,8 +10,8 @@
             "item": 
             {
                 "$ref": "https://emehiel.github.io/HSF_json_schema/HSF_asset.json"
-            }
-        },
-        "minItems": 1
+            },
+            "minItems": 1
+        }
     }
 }
