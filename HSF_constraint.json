@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://emehiel.github.io/HSF_json_schema/HSF_constraint_schema.json",
+    "$id": "https://emehiel.github.io/HSF_json_schema/HSF_constraint.json",
     "description": "schema for the Horizon Simulation Framework",
     "type": "object",
     "properties": {

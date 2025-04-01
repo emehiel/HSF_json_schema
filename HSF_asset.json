@@ -1,0 +1,19 @@
+{
+    "$id": "https://emehiel.github.io/HSF_json_schema/HSF_asset.json#",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Schema for the Model input for the Horizon Simulation Framework",
+    "title": "asset",
+    "type": "object",
+    "properties": {
+        "name": { "type": "string" },
+        "dynamicState": { "$ref": "#/$defs/dynamicState" },
+        "subsystems": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/subsystem" }
+        },
+        "constraints": {
+            "type": "array",
+            "items": { "$ref": "https://emehiel.github.io/HSF_json_schema/HSF_constraint.json" }
+        }
+    }
+}

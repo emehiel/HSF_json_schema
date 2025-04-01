@@ -1,18 +1,17 @@
 {
     "$id": "https://emehiel.github.io/HSF_json_schema/HSF_model.json#",
-    "$schemas": "https://json-schema.org/draft/2020-12/schema",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "description": "Schema for the Model input for the Horizon Simulation Framework",
-    "model":{
-        "type": "object",
-        "properties":{
-            "assets":{
-                "type": "array",
-                "item": 
-                {
-                    "$ref": "https://emehiel.github.io/HSF_json_schema/HSF_definitions.json"
-                }
-            },
-            "minItems": 1
-        }
+    "title": "model",
+    "type": "object",
+    "properties":{
+        "assets":{
+            "type": "array",
+            "item": 
+            {
+                "$ref": "https://emehiel.github.io/HSF_json_schema/HSF_asset_schema.json"
+            }
+        },
+        "minItems": 1
     }
 }
