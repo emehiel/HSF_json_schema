@@ -9,7 +9,7 @@
             "type": "array",
             "item": 
             {
-                "$ref": "https://emehiel.github.io/HSF_json_schema/HSF_asset_schema.json"
+                "$ref": "https://emehiel.github.io/HSF_json_schema/HSF_asset.json"
             }
         },
         "minItems": 1
