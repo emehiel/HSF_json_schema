@@ -1,5 +1,5 @@
 {
-    "$id": "https://github.com/emehiel/HSF_json_schema/HSF_definitions.json#",
+    "$id": "https://emehiel.github.io/HSF_json_schema/HSF_definitions.json",
     "$schemas": "https://json-schema.org/draft/2020-12/schema",
     "description": "schema for the Horizon Simulation Framework",
     "$defs":
@@ -83,7 +83,8 @@
             "items":
             {
                 "$ref": "#/$defs/asset"
-            }
+            },
+            "minItems": 1
         },
         "asset": {
             "type": "object",
