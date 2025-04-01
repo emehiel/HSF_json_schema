@@ -1,0 +1,22 @@
+{
+    "$id": "https://github.com/emehiel/HSF_json_schema/HSF_state_schema.json",
+    "$schemas": "https://json-schema.org/draft/2020-12/schema",
+    "description": "schema for the Horizon Simulation Framework",
+    "state": {
+        "type": "object",
+        "properties": {
+            "type": "string",
+            "name": "string",
+            "key": "string",
+            "value": {
+                "anyOf": [
+                    { "type": "boolean" },
+                    { "type": "integer" },
+                    { "type": "number" },
+                    { "type": "object" },
+                    { "type": "string" }
+                ]
+            }
+        }
+    }
+}

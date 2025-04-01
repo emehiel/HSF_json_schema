@@ -5,11 +5,11 @@
     "model":{
         "type": "object",
         "properties":{
-            "assets":{
+            "states":{
                 "type": "array",
                 "item": 
                 {
-                    "$ref": "https://github.com/emehiel/HSF_json_schema/HSF_definitions.json"
+                    "$ref": "https://github.com/emehiel/HSF_json_schema/HSF_state_schema.json"
                 }
             }
         }
