@@ -15,7 +15,7 @@
                 "key": { "type": "string" }
             },
             "required": [ "type", "key" ]
-        },
-        "required": [ "value", "subsystemName", "type", "name", "state"]
-    }
+        }
+    },
+    "required": [ "value", "subsystemName", "type", "name", "state"]
 }

@@ -13,7 +13,7 @@
         },
         "constraints": {
             "type": "array",
-            "items": { "$ref": "https://emehiel.github.io/HSF_json_schema/HSF_constraint.json" }
+            "item": { "$ref": "https://emehiel.github.io/HSF_json_schema/HSF_constraint.json" }
         }
     },
     "required": ["name"]
