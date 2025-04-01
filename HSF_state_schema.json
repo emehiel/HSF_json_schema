@@ -17,6 +17,7 @@
                     { "type": "string" }
                 ]
             }
-        }
+        },
+        "required": ["type", "name", "key", "value"]
     }
 }
