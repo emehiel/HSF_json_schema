@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://emehiel.github.io/HSF_json_schema/HSF_constraint_schema.json",
+    "description": "schema for the Horizon Simulation Framework",
+    "type": "object",
+    "properties": {
+        "value": { "type": "number" },
+        "subsystemName": { "type": "string" },
+        "type": { "type": "string" },
+        "name": { "type": "string" },
+        "state": {
+            "type": "object",
+            "properties": {
+                "type": { "type": "string" },
+                "key": { "type": "string" }
+            },
+            "required": [ "type", "key" ]
+        },
+        "required": [ "value", "subsystemName", "type", "name", "state"]
+    }
+}
