@@ -1,6 +1,6 @@
 {
     "$id": "https://github.com/emehiel/HSF_json_schema/HSF_definitions.json#",
-    "$schemas": "https://json-schema.org/draft/2019-09/schema",
+    "$schemas": "https://json-schema.org/draft/2020-12/schema",
     "description": "schema for the Horizon Simulation Framework",
     "$defs":
     {
